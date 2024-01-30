@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+html {
+	font-size: 10px;
+	overflow-x: hidden;
+}
+body {
+	background: var(--lightGreen-2);
+	overflow-x: hidden;
+	visibility: hidden;
+}
+.telstyle {
+	text-decoration: none;
+	color: white;
+}
+section {
+	padding: 100px 0;
+}
+@media only screen and (max-width: 767px) {
+	section {
+		padding: 50px 0;
+	}
+}
+.container {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
+.copyright__text {
+	font-size: 1.4rem;
+	text-align: center;
+}
+:root {
+	--green-1: #26643b;
+	--green-2: #a2de96;
+	--lightGreen-1: #d6e5d8;
+	--lightGreen-2: #f5fcf4;
+	--black-1: #3b413a;
+	--black-2: #3f3c3c;
+	--black-3: #5b6359;
+	--white-1: #e8e8e8;
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+h1,
+h2,
+h3,
+h4 {
+	font-family: Poppins;
+}
+p {
+	font-family: Raleway;
+	font-weight: 400;
+	line-height: 1.4em;
+	font-size: 1.8rem;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.contact .row{
+	display: flex;
+	background:var(--black);
+	flex-wrap: wrap;
+	gap:1rem;
+	color: #fff;
+	size: 0vmax;
+  }
+  
+  .contact .row .map{
+	flex:1 1 45rem;
+	width: 100%;
+	object-fit: cover;
+  }
+  
+  .contact .row form{
+	flex:1 1 45rem;
+	padding:5rem 2rem;
+	text-align: center;
+  }
+  
+  .contact .row form h3{
+	text-transform: uppercase;
+	font-size: 3.5rem;
+	color:#fff;
+  }
+  
+  .contact .row form .inputBox{
+	display: flex;
+	align-items: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	background:var(--bg);
+	border:var(--border);
+  }
+  
+  .contact .row form .inputBox span{
+	color:#fff;
+	font-size: 2rem;
+	padding-left: 2rem;
+  }
+  
+  .contact .row form .inputBox input{
+	width: 100%;
+	padding:2rem;
+	font-size: 1.7rem;
+	color:#fff;
+	text-transform: none;
+	background:none;
+  }
+.testimonial__title{
+	font-size: 1.8rem;
+	margin-bottom: 3rem;
+	text-align: center;
+	color: var(--black-1);
+	size: 90%;
+}
